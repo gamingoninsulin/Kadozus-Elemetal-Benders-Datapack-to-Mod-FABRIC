@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "goi_airbender",
+	"version": "${version}",
+	"name": "Elemental Benders",
+	"description": "Adds Kadozu's elemental bending datapack to modded Minecraft",
+	"authors": [
+		"Gaming OnInsulin (merging it to mod)",
+		"Kadozu (Datapack)"
+	],
+	"contact": {
+		"homepage": "https://discord.gg/n832bVJ",
+		"sources": "https://github.com/gamingoninsulin/elemetal-benders"
+	},
+	"license": "MIT",
+	"icon": "assets/goi_airbender/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.gamingoninsulin.ExampleMod"
+		]
+	},
+	"mixins": [
+		"goi_airbender.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"origins": "Origins-1.19.2-1.7.1",
+		"cloth_config": "cloth-config-8.3.103-fabric",
+		"cardinal_components": "cardinal-components-api-5.0.2",
+		"player_ability_lib": "pal-1.6.0"
+	}
+}
